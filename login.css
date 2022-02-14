@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    height: 100vh;
+    width: 100vw;
+    background: url(./imagenes/fondo1.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cuadrado{
+    height: 63vh;
+    width: 28vw;
+    background-color: #13131f;
+    border-radius: 2rem;
+}
+
+.cuadrado .top{
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado .top img{
+    width: 18vw;
+}
+
+.cuadrado .login{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cuadrado .login img{
+    width: 7.2vw;
+}
+
+.cuadrado .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.cuadrado .container input{
+    width: 80%;
+    height: 2.5rem;
+    border-radius: 2rem;
+    background-color: #1A1932;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 0.5rem;
+}
+
+.cuadrado .recuerdame{
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #fff;
+    letter-spacing: 0.7px;
+}
+
+.cuadrado .recuerdame input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.container {
+    display: block;
+    position: relative;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.container p{
+    margin-left: 3rem;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 2rem;
+    width: 2rem;
+    background-color:  #1A1932;
+    border-radius: 0.7rem;
+    border: 1px solid #fff;
+    padding-right: 1re;
+}
+
+.container:hover input ~ .checkmark {
+    background-color: #F8B444;
+}
+
+.container input:checked ~ .checkmark {
+    background-color: #F8B444;
+}    
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}  
+
+.container .checkmark:after {
+    left: 10px;
+    top: 5px;
+    width: 7px;
+    height: 15px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }

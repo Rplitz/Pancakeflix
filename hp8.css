@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "Mont";
+    src: url('./font/montregular/Mont-Regular.woff2') format('woff2'),
+      url('./font/montregular/Mont-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Mont heavy";
+    src: url('./font/montheavy/Mont-Heavy.woff2') format('woff2'),
+      url('./font/montheavy/Mont-Heavy.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+                
+
+body{
+    background-color:  #1A1932;
+}
+
+header{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color:  #13131F;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec{
+    font-family: "Mont";
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 2vw 0 2vw;
+
+}
+
+.señalado{
+    font-family: "Mont Heavy";
+}
+
+header .ig1{
+    width: 18vw;
+    margin-left: 3vw;
+}
+
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buscar_texto{
+    margin-left: 4rem;
+    background-color:  #1A1932;
+    height: 2.5rem;
+    width: 20vw;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador img{
+    width: 1.8vw;
+    position: relative;
+    left: -65px;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.usuario a{
+    font-size: 1.3rem;
+    font-family: "Mont";
+    font-weight: 600;
+
+}
+
+.blanco{
+    height: 10vh;
+}
+
+.banner{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./imagenes/WizardlyWorld/banners/08.png);
+    background-size: cover;  
+}
+
+.banner img{
+    height: 35vh;
+    border-radius: 1rem;
+}
+
+.sinopsis{
+    width: 90%;
+    height: 50vh;    
+    margin-top: 10vh;
+    display: flex;
+    align-items: flex-end;
+}
+ 
+.texto{
+    color: #fff;
+    margin: 0 0vh 0vh 3vh;
+}
+.texto h2{
+    font-family: "Mont Heavy";
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.texto p{
+    font-family: "Mont";
+    font-size: 1.1rem;
+    text-align: justify;
+}
+
+.reproductor{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.reproductor iframe{
+    width: 90vw;
+    height: 80vh;
+}
+
+.con{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.con a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 18px;
+    margin: -6vh 7vh 4vh 7vh;
+}
+  
+ .con a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .previous {
+    background-color:  #13131F;
+    color: #fff;
+  }
+  
+  .next {
+    background-color:  #13131F    ;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+

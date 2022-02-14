@@ -1,0 +1,215 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "Mont";
+    src: url('./font/montregular/Mont-Regular.woff2') format('woff2'),
+      url('./font/montregular/Mont-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Mont heavy";
+    src: url('./font/montheavy/Mont-Heavy.woff2') format('woff2'),
+      url('./font/montheavy/Mont-Heavy.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+                
+
+body{
+    background-color:  #1A1932;
+}
+
+header{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color:  #13131F;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec{
+    font-family: "Mont";
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 2vw 0 2vw;
+
+}
+
+.señalado{
+    font-family: "Mont Heavy";
+}
+
+header .ig1{
+    width: 18vw;
+    margin-left: 3vw;
+}
+
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buscar_texto{
+    margin-left: 4rem;
+    background-color:  #1A1932;
+    height: 2.5rem;
+    width: 20vw;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador img{
+    width: 1.8vw;
+    position: relative;
+    left: -65px;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.usuario a{
+    font-size: 1.3rem;
+    font-family: "Mont";
+    font-weight: 600;
+
+}
+
+.usuario img{
+    padding-right: 2vw;
+}
+
+.pag{
+    width: 100vw;
+    height: 60vh;
+}
+
+.blanco{
+    width: 100vw;
+    height: 10vh;
+}
+
+
+.novedades{
+    width: 100vw;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+}
+
+.novedades .pel1{
+    margin-top: 5vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.bfett{
+    width: 29vw;
+    height: 32vh;
+    background-image: url(./imagenes/fotos\ \(1\).png);
+    background-size: cover;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hp3t{
+    width: 29vw;
+    height: 32vh;
+    background-image: url(./imagenes/fotos\ \(2\).png);
+    background-size: cover;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.lldljt{
+    width: 29vw;
+    height: 32vh;
+    background-image: url(./imagenes/fotos\ \(3\).png);
+    background-size: cover;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.margen{
+    width: 100%;
+    height: 9vh;
+    background-color: rgba(27, 25, 25, 0.856) ;   
+}
+
+.pel1 h3{
+    position: absolute;
+    margin-top: -7.5vh;
+    margin-left: 1.5vw;
+    color: #fff;
+    font-size: 1.1rem;
+    font-family: "Mont Heavy";
+    letter-spacing: 0.8px;
+}
+
+.pel1 p{
+    position: absolute;
+    margin-top: -4vh;
+    margin-left: 1.5vw;
+    color: #fff;
+    font-size: 1rem;
+    font-family: "Mont";
+    letter-spacing: 0.8px;
+}
+
+.recien{
+    height: 15vh;
+    color: #fff;
+    margin-left: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+    font-size: 1.3;
+    font-family: "mont heavy";
+    letter-spacing: 0.8px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 5vh 12.7vh 12.7vh 12.7vh 12.7vh 12.7vh 12.7vh 12.7vh 5vh;
+    grid-template-rows: 30vh;
+    
+  }

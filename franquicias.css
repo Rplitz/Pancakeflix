@@ -1,0 +1,198 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+@font-face {
+    font-family: "Mont";
+    src: url('./font/montregular/Mont-Regular.woff2') format('woff2'),
+      url('./font/montregular/Mont-Regular.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Mont heavy";
+    src: url('./font/montheavy/Mont-Heavy.woff2') format('woff2'),
+      url('./font/montheavy/Mont-Heavy.woff') format('woff');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+                
+
+body{
+    background-color:  #1A1932;
+}
+
+header{
+    position: fixed;
+    height: 10vh;
+    width: 100vw;
+    background-color:  #13131F;
+    z-index: 4;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tec{
+    font-family: "Mont";
+}
+
+header a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    margin: 0 2vw 0 2vw;
+
+}
+
+.señalado{
+    font-family: "Mont Heavy";
+}
+
+header .ig1{
+    width: 18vw;
+    margin-left: 3vw;
+}
+
+
+.buscador{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.buscar_texto{
+    margin-left: 4rem;
+    background-color:  #1A1932;
+    height: 2.5rem;
+    width: 20vw;
+    color: #fff;
+    font-size: 1.2rem;
+    border: 2px solid #fff;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+
+.boton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buscador img{
+    width: 1.8vw;
+    position: relative;
+    left: -65px;
+}
+
+.usuario{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 5vw;
+}
+
+.usuario a{
+    font-size: 1.3rem;
+    font-family: "Mont";
+    font-weight: 600;
+
+}
+
+.blanco{
+    height: 10vh;
+}
+
+
+
+.franquicias{
+    width: 100%; 
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.t1 {
+    width: 90vw; 
+    height: 8vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+} 
+
+ .t1 p{
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: "Mont heavy";
+}
+
+.a1{
+
+    width: 100%;
+}
+
+.b1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.b1 img{
+    width: 44vw;
+    margin: 1vw 1vw ;
+    border-radius: 1rem;
+} 
+
+.c1{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Mont Heavy";
+    font-size: 2rem;
+    transition: all 350ms ease;
+}
+.c1 a{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.c1 a p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0);
+    transition: all 350ms ease;
+}
+
+.c1:hover img {   
+    filter: brightness(.4) blur(3px);
+    transition: all 350ms ease;
+}
+
+.c1:hover a p{
+    color: rgb(255, 255, 255); 
+}
+  
+.c1:hover div{
+    visibility: visible;
+}
+
+
+
+
+
+
